@@ -17,3 +17,13 @@ it is a folder managed by git where we can track all the changes we are making i
 - `git checkout -b <name>` : create a new branch of the repo apart from main (master)
 
 - `git checkout master` : switch branches (master is the name of the branch)
+
+if your teammate or collaborator made some changes to the main branch and your local git is not aware of those changes then if you try to push your changes then it won't allow you to do so. you have to first get on the same level as your github repository.
+
+- `git pull origin master` : pulls the latest version from the master branch to local git
+
+Preferred order if more than one person working on the same project:
+`git add` 
+`git commit`
+`git pull`
+`git push`
