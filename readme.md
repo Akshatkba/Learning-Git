@@ -9,3 +9,4 @@ it is a folder managed by git where we can track all the changes we are making i
 
 - `git commit -m <message>` : this creates a new version based on your prev changes
 
+- `git push origin master` : pushes the changes to main branch on github repo
