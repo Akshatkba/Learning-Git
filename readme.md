@@ -13,3 +13,7 @@ it is a folder managed by git where we can track all the changes we are making i
 
 - `git cat-file <flag> <hash>` : flag = -t -> tells you about the type of the object
                                  flag = -p -> tells you about the content of the object
+
+- `git checkout -b <name>` : create a new branch of the repo apart from main (master)
+
+- `git checkout master` : switch branches (master is the name of the branch)
